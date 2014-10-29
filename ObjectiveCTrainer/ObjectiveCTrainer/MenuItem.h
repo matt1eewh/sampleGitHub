@@ -10,4 +10,9 @@
 
 @interface MenuItem : NSObject
 
+@property (nonatomic, strong) NSString *menuTitle;
+@property (nonatomic, strong) NSString *menuIcon;
+
+@property (nonatomic) int ScreenType;
+
 @end

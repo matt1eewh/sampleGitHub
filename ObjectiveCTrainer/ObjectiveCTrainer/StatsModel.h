@@ -1,5 +1,5 @@
 //
-//  MenuModel.h
+//  StatsModel.h
 //  ObjectiveCTrainer
 //
 //  Created by XcodeDev on 28/10/14.
@@ -8,10 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
-@interface MenuModel : NSObject
-
-- (NSArray*) getMenuItems;
-
+@interface StatsModel : NSObject
 
 @end
